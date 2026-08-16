@@ -3,7 +3,7 @@
 A responsive one-page website for a fictional Nairobi barbershop.
 
 ## Live demo
-https://andY-GAD.github.io/marlowe-barbershop/marlowe.html
+https://andY-GAD.github.io/marlowe-barbershop
 
 ## Tech used
 - HTML5, CSS3, vanilla JavaScript
