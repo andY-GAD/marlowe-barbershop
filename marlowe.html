@@ -1,0 +1,307 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Traditional High end Nairobi,Kilimani Barbershop">
+<meta property="og:title" content="Marlowe Barbershop">
+<meta property="og:description" content="Traditional High End Naitobi,Kilimani Barbershop">
+<meta property="og:image" content="https://yoursite.com/previewjpg">
+<title>Marlowe-Nairobi</title>
+<style>
+:root{
+--bg:#2B201A;
+--surface:#241E1A;
+--text:#F5EFE6;
+--text-dim:#B8AFA4;
+--rust:#C1502E;
+--olive:#8A9A5B;
+--line:#3A322C;
+--ease:cubic-bezier(0.22,1,0.36,1);
+--colorch:#D9663F;
+}
+body{
+background-color:var(--bg);
+color:var(--text);
+padding:20px;
+font-family:Corbel;
+font-weight:200;
+}
+p{
+font-size:25px;
+}
+a{
+text-decoration:none;
+color:var(--text);
+}
+nav{
+justify-content:space-between;
+padding:20px;
+display:flex;
+position:sticky;
+top:0;
+border-bottom:1px solid var(--line);
+align-items:center;
+backdrop-filter:blur(4px);
+background-color:rgba(20,22,16,0);
+z-index:100;
+}
+.touch{
+padding:15px 20px;
+background-color:var(--rust);
+border-radius:4px;
+font-size:15px;
+font-weight:600;
+transition:all 0.25s var(--ease);
+}
+.touch:hover{
+transform:translateY(-2px);
+background-color:var(--colorch);
+cursor:pointer;
+}
+.topp{
+color:var(--olive);
+font-family:"Segoe UI";
+font-weight:300;
+font-size:30px;
+}
+.working{
+display:flex;
+gap:100px;
+}
+span{
+color:var(--rust);
+}
+h1,h2,h3{
+font-family:Georgia;
+font-weight:700;
+}
+h1{
+font-size:40px;
+}
+h2{
+font-size:50px;
+}
+h3{
+font-size:30px;
+}
+section{
+border-top:1px solid var(--line);
+border-bottom:1px solid var(--line);
+padding:10px;
+}
+.menu{
+margin:10px;
+padding:100px 20px;
+border-radius:8px;
+background-color:var(--surface);
+width:200px;
+height:100px;
+text-align:center;
+border:1px solid var(--line);
+transition:all 0.25s var(--ease);
+}
+.menu:hover{
+transform:translateY(-2px);
+border-color:var(--rust);
+}
+.services{
+display:flex;
+}
+.comments{
+display:flex;
+padding:10px;
+margin:5px;
+border-left:1px solid var(--rust);
+}
+.form{
+margin-top:0;
+}
+.btn{
+background-color:var(--rust);
+color:var(--text);
+padding:10px 10px;
+border-radius:4px;
+border:none;
+transition:all 0.25s var(--ease);
+}
+.btn:hover{
+transform:translateY(-2px);
+background-color:var(--colorch);
+cursor:pointer;
+}
+input,select,textarea{
+padding:10px;
+background-color:var(--surface);
+border-radius:4px;
+border:1px solid var(--line);
+color:var(--text);
+transition:all 0.25s var(--ease);
+}
+input:hover,select:hover,textarea:hover{
+transform:translateY(-2px);
+border-color:var(--rust);
+}
+footer{
+margin-left:40%;
+display:flex;
+gap:50px;
+}
+.para{
+color:var(--text-dim);
+}
+.submition{
+display:flex;
+gap:400px;
+}
+.reveal{
+opacity:0;
+transform:translateY(22px);
+transition:all 1.7s var(--ease);
+}
+.reveal.visible{
+opacity:1;
+transform:none;
+}
+@media (max-width:850px){
+.working{flex-direction:column; gap:20px;}
+.services{flex-direction:column;}
+.submition{flex-direction:column; gap:20px;}
+.table-wrap{overflow-x:auto;};
+p{font-size:12px;}
+h1{font-size:27px;}
+h2{font-size:37px;}
+h3{font-size:22px;}
+footer{margin-left:0;}
+}
+</style>
+</head>
+<body>
+<nav>
+<h1>Marlowe<span>.</span></h1>
+<a href="#contact" class="touch">Book a Cut</a>
+</nav>
+
+<section>
+<div class="topp">Taste Nairobi's Oldest Seat</div>
+<div><h2>Embarking Craftsmanship<span>,</span> Paying Respects to Our <span>Roots</span></h2></div> 
+<p>Marlowe Barbershop has been the heart of men haircuts in Kilimani from 2014.<br>Employing technics long forgotten to ensure perfection and care for our clients hair<br>
+both during and after the cut by using hair nourishing shampoo and tools that maintain comfortaility during your time here.<br></p>
+<div class="working"> 
+<div><p><strong>Hours:</strong><br>Mon-Sat, 9am-7pm</p></div>
+<div><p><strong>Location:</strong><br>Kilimani, Nairobi</p></div>
+<div><p><strong>Walk-Ins:</strong><br>Welcome, first come first served</p></div>
+</div>
+</section>
+
+<section>
+<div class="reveal">
+<div class="topp">WHAT WE DO</div>
+<div><h3>Simple.Precise.<span>Catalogued</span></h3></div>
+<div class="services">
+<div class="menu"><strong><span>ksh.600</span></strong><br>High-Top Fade</div>
+<div class="menu"><strong><span>ksh.500</span></strong><br>Taper Fade</div>
+<div class="menu"><strong><span>ksh.400</span></strong><br>Ceasure Cut</div>
+<div class="menu"><strong><span>ksh.350</span></strong><br>360 waves</div>
+<div class="menu"><strong><span>ksh.700</span></strong><br>Twists</div>
+<div class="menu"><strong><span>ksh.300</span></strong><br>Buzz</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="reveal">
+<div class="topp">THE SHOP</div>
+<div><h3>Peek Inside our <span>Workshop</span></h3></div>
+<div class="table-wrap">
+<table>
+<tr colspan="4"><th><h3>Interior</h3></th></tr>
+<tr>
+<td><div class="menu"><img src="#entrance.jpg" alt="Entrance"></div></td>
+<td><div class="menu"><img src="#interior.jpg" alt="Chair"></div></td>
+<td><div class="menu"><img src="#interior.jpg" alt="Tools"></div></td>
+<td><div class="menu"><img src="#interior.jpg" alt="Specialists"></div></td>
+</tr>
+</table>
+<table>
+<tr colspan="4"><th><h3>Cuts</h3></th></tr>
+<tr>
+<td><div class="menu"><img src="#fadework.jpg" alt="Fade"></div></td>
+<td><div class="menu"><img src="#chair.jpg" alt="Ceasure cut"></div></td>
+<td><div class="menu"><img src="#interior.jpg" alt="Twist"></div></td>
+<td><div class="menu"><img src="#interior.jpg" alt="Buzz cut"></div></td>
+</tr>
+</table>
+</div>
+</div>
+</section>
+
+<section>
+<div class="reveal">
+<div class="topp">WORD AROUND TOWN</div>
+<div><h3>A Word from our <span>Regulars</span></h3></div>
+<div class="services">
+<div class="comments">
+<p>"Never gonna betray this joint!!!I'd fly for a cut!"<br>
+<i>-Daniel.L.Otieno</i></p>
+</div>
+<div class="comments">
+<p>"This is a gentlemans hub, only men who know their moneys-worth run here."<br>
+<i>-Shelvy Mwangi</i></p>
+</div>
+<div class="comments">
+<p>"They use scissors too, your welcome."<br>
+<i>-Tristan Gad</i></p>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="reveal">
+<div class="submition">
+<div>
+<div class="topp">GET IN TOUCH</div>
+<div><h3><span>Book</span> A Session With Us</h3></div>
+<br>
+<p>Marlowe Barbershop,Nairobi-Kilimani</p>
+<p class="para">Mon-Sat, 9am-7pm. Closed Sundays.<br>
+Prefer to call? +254 700 000 000</p>
+</div>
+<form class="form">
+<label><h3>Fullname</h3></label>
+<p><input type="text" required></p>
+<label><h3>Phone</h3></label>
+<p><input type="text" placeholder="07xxxxxxxx" inputmode="numeric" pattern="[0-9]*" min="10" required></p>
+<label><h3>Service</h3></label>
+<p><select>
+	<option>Buzz Cut</option>
+	<option>Twists</option>
+	<option>Ceasure Cut</option>
+	<option>360 waves</option>
+	<option>Taper fade</option>
+	<option>High-Top Fade</option>
+	</select></p>
+<label><h3>Anything We Should Know?</h3></label>
+<p><textarea cols="30" rows="3"></textarea></p>
+<button type="submit" class="btn">Request Booking</button>
+</form>
+</div>
+</div>
+</section>
+<footer>
+<p>2026 Marlowe Barbershop - Kilimani, Nairobi<br>
+Call us 07xxxxxxxxx</p>
+</footer>
+<script>
+const x=document.querySelectorAll('.reveal');
+const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{
+	if(entry.isIntersecting){
+	entry.target.classList.add('visible');
+	observer.unobserve(entry.target);
+	}
+});
+},{threshold:0.15});
+x.forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
